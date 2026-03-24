@@ -26,7 +26,7 @@ go build -o radio_control radio_control.go
 
 ### Flags
 
-- `-i, --ip <addr>`: IP address of the radio (default: `10.0.0.136` or `RADIO_IP` environment variable)
+- `-i, --ip <addr>`: IP address of the radio (default: `XX.XX.XX.XX` or `RADIO_IP` environment variable)
 - `-h, --help`: Show help message
 
 ### Commands

@@ -61,7 +61,7 @@ func usage() {
 Usage: %s [flags] [command] [value]
 
 Flags:
-  -i, --ip <addr>   IP address of the radio (default: 10.0.0.136)
+  -i, --ip <addr>   IP address of the radio (default: XX.XX.XX.XX)
   -h, --help        Show this help message
 
 Commands:
@@ -133,7 +133,7 @@ func main() {
 	// Setup and parse command-line flags.
 	defaultIP := os.Getenv("RADIO_IP")
 	if defaultIP == "" {
-		defaultIP = "10.0.0.136"
+		defaultIP = "XX.XX.XX.XX"
 	}
 
 	flag.StringVar(&radioIP, "ip", defaultIP, "IP address of the radio")
