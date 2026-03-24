@@ -49,6 +49,22 @@ go build -o radio_control radio_control.go
 - `pair`: Initiate Bluetooth pairing
 - `device`: Show device information (Model, Version, IP)
 
+## Supported Modes (Inputs)
+
+| ID | Mode |
+|----|------|
+| 0  | Internet Radio |
+| 1  | Tidal |
+| 2  | Deezer |
+| 3  | Amazon Music |
+| 4  | Spotify |
+| 5  | Local Music |
+| 6  | Music Player |
+| 7  | DAB |
+| 8  | FM Radio |
+| 9  | Bluetooth |
+| 10 | AUX |
+
 ## License
 
 MIT
